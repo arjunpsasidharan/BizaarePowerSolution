@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Base.Widget.AppCompat.ListView.Menu"
+    android:backgroundTint="#d9ffdd">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/clientimage"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dgdfgdfgdfg"
+        android:id="@+id/itemheader"
+      android:textSize="16sp"
+        style="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title"
+
+        android:layout_toRightOf="@+id/clientimage"
+
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dgdfgdfgdfg"
+        android:id="@+id/desc"
+        android:textSize="14sp"
+       android:layout_below="@id/itemheader"
+
+        android:layout_toRightOf="@+id/clientimage"
+android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

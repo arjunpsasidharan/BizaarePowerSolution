@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080707"
+
+    android:id="@+id/inforel">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BizarrePower"
+        android:id="@+id/titleinfo"
+        android:textColor="#fdffe4"
+
+        android:textStyle="bold"
+        android:textAlignment="center"
+
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/programming"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        android:id="@+id/version"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#fdffe4"
+
+        android:textStyle="bold"
+        android:layout_below="@+id/titleinfo"
+       android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/programming"
+        android:id="@+id/programming"
+
+        android:textColor="#fdffe4"
+android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+
+        android:layout_below="@+id/version"
+  android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arjun P"
+        android:id="@+id/myname"
+
+        android:textColor="#fdffe4"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+
+        android:layout_alignTop="@+id/programming"
+        android:layout_toEndOf="@+id/programming" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="arjunp@quastio.in"
+        android:id="@+id/quastiomail"
+        android:textColor="#fdffe4"
+
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/myname"
+        android:layout_alignStart="@+id/myname"
+        android:autoLink="email" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="arjunpsasidharan@gmail.com"
+        android:id="@+id/gmail"
+        android:layout_below="@+id/quastiomail"
+        android:layout_alignStart="@+id/quastiomail"
+        android:textColor="#fdffe4"
+android:layout_marginRight="2dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:autoLink="email"
+        android:clickable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credits:"
+        android:id="@+id/credits"
+        android:textColor="#fdffe4"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@id/programming"
+        android:layout_marginTop="55dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.stackoverflow.com"
+        android:id="@+id/stack"
+        android:textColor="#fdffe4"
+android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:autoLink="web"
+        android:layout_alignTop="@+id/credits"
+        android:layout_alignStart="@+id/gmail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hari Kashyap Raj "
+        android:id="@+id/kashyap"
+        android:layout_below="@+id/stack"
+        android:layout_alignStart="@+id/stack"
+        android:textColor="#fdffe4"
+
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+
+</RelativeLayout>

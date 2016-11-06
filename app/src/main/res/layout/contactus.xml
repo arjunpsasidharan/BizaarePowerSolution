@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/relative">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:id="@+id/address"
+        style="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF2FB036"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:id="@+id/adreesdesc"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:autoLink="map"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:layout_below="@+id/address"
+        android:layout_toEndOf="@+id/location" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:src="@android:drawable/ic_menu_call"
+        style="@style/Base.TextAppearance.AppCompat.Button"
+        android:layout_alignBottom="@+id/phonenum"
+        android:layout_alignLeft="@+id/location"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phonenum"
+        android:id="@+id/phonenum"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/adreesdesc"
+        android:layout_toRightOf="@+id/call"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:autoLink="phone" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:src="@android:drawable/ic_dialog_map"
+
+        android:layout_below="@+id/address"
+        android:layout_alignStart="@+id/address" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/topic"
+        android:hint="Interested In"
+        style="@style/Base.V12.Widget.AppCompat.EditText"
+        android:layout_below="@+id/fb"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/call"
+        android:elegantTextHeight="false"
+        android:inputType="textLongMessage"
+        android:maxLines="1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+
+        android:id="@+id/mobilenumber"
+        android:hint="Mobile#(10digits)"
+        style="@style/Base.V12.Widget.AppCompat.EditText"
+        android:layout_below="@+id/topic"
+        android:layout_alignStart="@+id/topic"
+        android:elegantTextHeight="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        style="@style/Base.TextAppearance.AppCompat.Button"
+        android:src="@android:drawable/ic_dialog_email"
+        android:text="Send Mail"
+
+       android:layout_below="@+id/query"
+        android:layout_toEndOf="@+id/topic" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+       android:ems="10"
+        android:id="@+id/query"
+        android:hint="Enter your message..........."
+        style="@style/Base.V12.Widget.AppCompat.EditText"
+
+        android:inputType="textLongMessage|textEmailSubject|textWebEditText|textMultiLine"
+
+        android:layout_below="@+id/mobilenumber"
+        android:layout_alignStart="@+id/mobilenumber"
+        android:elegantTextHeight="false"
+        android:maxLines="2"
+        android:nestedScrollingEnabled="true"
+
+        />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/fb"
+        android:src="@drawable/fb"
+        style="@style/Base.TextAppearance.AppCompat.Button"
+        android:clickable="true"
+
+        android:layout_below="@+id/phonenum"
+        android:layout_alignStart="@+id/call" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/bizarrepowersolutions"
+        android:id="@+id/fbtext"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:textColor="#3b579c"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/phonenum"
+        android:layout_toEndOf="@+id/call" />
+
+
+</RelativeLayout>

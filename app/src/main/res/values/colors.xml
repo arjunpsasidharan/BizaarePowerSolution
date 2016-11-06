@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="statusbar">#FF2FB036 </color>
+    <color name="actionbar">
+        #FF71BC4A
+    </color>
+<color name="button">
+
+
+    #FF8ED187
+</color>
+
+</resources>

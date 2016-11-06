@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">BizarrePower</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="image">asjfbajkf</string>
+    <string name="itemheading"><![CDATA[Products & Services\n  UPS]]></string>>
+
+
+
+    <string-array name="clientnames">
+        1 temple<item>SreePisharikavu Temple  </item>
+        2 gov<item>Koyilandy Muncipality  </item>
+        3 hosp<item>Mental Hospital kuthiravattom </item>
+        4 gov<item>FCI Kozhikode   </item>
+        5 institu<item>KMCT Group of Instituition  </item>
+        6 colg<item>NMSM GOVT Colege, Wayanad   </item>
+        7 collge<item>Model ITI, Kozhikode </item>
+        8 collge<item>Womens Polytechnic, Malapparamba GP   </item>
+        9 college<item>Womens ITI, Malikkadavu   </item>
+        10college<item>SARBTM GOVT College, Koyilandy </item>
+        11govt<item>Perambra GP</item>
+        12colg<item>CKG Memmorial GOVT College,Perambra</item>
+        13collg<item>ITI Elathur</item>
+        14govt<item>Meenangadi GP</item>
+
+
+
+
+    </string-array>
+    <string-array name="clientmessages">
+       1 <item>\"Bizarre provided the best equipments in low cost without compromising the quality \"   </item>
+        2<item>\"Everything is communicated in a professional and timely manner\"   </item>
+        3<item>\"Bizarre is consistent in meeting our expectation\" </item>
+        4<item>\"Total work was way too good\"</item>
+        5<item>\"We have always received good service from Bizarre.\"</item>
+        6<item>\"Excellent work all the way around\"</item>
+        7<item>\"Service is extraordinary\"</item>
+       8 <item>\"Time and quality have always met our expectation\"</item>
+        9<item>\"Every products are of excellent standards\"</item>
+        10<item>\"Excellent and efficient\"</item>
+        11<item>\"Everything was done with in time limit\"</item>
+        12<item>\"Good service\"</item>
+        13<item>\"Supplied high quality products\"</item>
+        14<item>\"Efficient company \"</item>
+    </string-array>
+    <string name="firstdesc">
+       \" The most prestigious and progressive vendor and a leader in the backup power provisioning
+        industry focus on doing business of reliable and the “best in class” UPS, Inverter, Solar
+        Products, Batteries, Computers and related accessories,
+        Networking  to all power needs and provides end-to-end solutions.\"
+
+
+
+    </string>
+    <string name="desc2">
+
+
+
+
+      <![CDATA[ \n \n o	                We are authorized distributors & dealers of UPS, Inverters, Solar Systems, Servo Stabilizers, Batteries and IT equipments. We Offer a wide range of power electronics products for all commercial and residential needs of users. We are mainly doing the business from  NUMERIC, IGA-TECH, HYKON, APC etc and HP, ACER, DELL, LENOVO etc; – well known branded products in this industry. We also focus on selling enhanced quality, reliable and performance based products having quality certificates like ISO.
+\n \n \no	                   We take up the responsibility of providing after SALES & SERVICE for all kind of UPS, Inverters& Computers manufactured by others also. We are proud to announce our best service support that is well received and complemented by all of our customers. We have well-developed professional service setup with dedicated professionals for after sale service. We are focusing to delight customers by improving quality of life.
+\n \n \n o	               We have achieved a tremendous growth primarily by gaining 100% customer satisfaction and trading the best products in quality and cost effectiveness to our customers. Our products and services play a key role in successful operations of various Industries including but not limited to major Govt & Central Govt Departments, Banks, Hospitals, Engg. Colleges, Schools, Large and Small Scale businesses.
+Our Vision
+To be recognized as the leading power solutions provider.]]>
+
+    </string>
+    <string name="vision">
+        <![CDATA[\"To be recognized as the leading power solutions provider\"]]>
+    </string>
+    <string name="mission">
+       \" We committed to providing the best quality products with competitive price and services exceeding our customers’ expectations in the most professional and ethical manner.\"
+
+    </string>
+    <string name="address">E3/33/6687, OPAL COMPLEX,Water Authority Road,
+    Malapparamba, Kozhikode-673009</string>
+    <string name="phonenum">+91 9400623700,     \n0495 2536304</string>
+    <string name="email">bizarrepower@gmail.com</string>
+    <string name="location">https://www.google.co.in/maps/place/Bizarre+Power+Solution/@11.2867352,75.8031745,15z/data=!4m5!3m4!1s0x0:0x46b44d1b2aa1c7b!8m2!3d11.2867352!4d75.8031745</string>
+<string name="fb">https://www.facebook.com/bizarrepowersolutions/</string>
+    <string name="programming"><![CDATA[Developed by:]]></string>
+
+
+</resources>
